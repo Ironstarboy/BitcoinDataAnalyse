@@ -175,7 +175,7 @@ class deal_net:
 
 
 if __name__=='__main__':
-    file_path=r"source/追溯网络数据/实体追溯网络/溯源三层网络/cluster_tracefrom_df_news.csv"
+    file_path= r"../source/追溯网络数据/实体追溯网络/溯源三层网络/cluster_tracefrom_df_news.csv"
     bitcoin_net=deal_net(file_path)
 
     bitcoin_net.clique(3)
